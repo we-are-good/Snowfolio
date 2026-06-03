@@ -1,36 +1,105 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Snowfolio
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white)
+![Jotai](https://img.shields.io/badge/Jotai-000000)
+![Axios](https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-First, run the development server:
+A modern web application that provides actionable insights for U.S. stock investors.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Snowfolio helps users discover investment opportunities by combining stock research, financial calculators, and portfolio-focused tools into a single platform. The application is designed to support data-driven decision-making and long-term investing.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 📈 Stock Insights
 
-## Learn More
+- Explore companies and stocks with investment-focused analysis.
+- Review key metrics and information for informed decision-making.
+- Discover potential investment opportunities through structured research.
 
-To learn more about Next.js, take a look at the following resources:
+### 🧮 Financial Calculators
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Snowfolio provides practical calculators commonly used by long-term investors:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Exchange Rate Calculator
+- Dividend Income Calculator
+- Dollar-Cost Averaging (DCA) Calculator
 
-## Deploy on Vercel
+### 💾 Saved Research
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Save stocks and investment ideas for future reference.
+- Access previously researched companies anytime.
+- Build and manage a personalized watchlist of investment opportunities.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🎯 Mission
+
+Snowfolio is built around a simple goal:
+
+> Empower investors to make informed decisions through accessible insights, practical tools, and long-term investment thinking.
+
+By helping users evaluate companies, estimate returns, and understand the impact of compound growth, Snowfolio aims to make investing more approachable and effective.
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+
+### State Management
+
+- Jotai
+
+### Data Fetching
+
+- Axios
+
+---
+
+## 🚀 Project Goals
+
+- Provide accessible insights into the U.S. stock market.
+- Deliver practical tools that support investment planning.
+- Improve the efficiency of stock research and idea tracking.
+- Build a scalable and maintainable modern web application.
+- Continuously enhance the user experience through iterative development.
+
+---
+
+## 📋 Roadmap
+
+- [ ] Stock Search
+- [ ] Exchange Rate Calculator
+- [ ] Dividend Calculator
+- [ ] DCA Calculator
+- [ ] Save Investment Research
+- [ ] Portfolio Dashboard
+- [ ] Dividend Tracking
+- [ ] Investment Performance Analytics
+- [ ] Stock Comparison Tools
+- [ ] AI-Powered Investment Insights
+
+---
+
+## ⚠️ Disclaimer
+
+Snowfolio is intended for educational and informational purposes only.
+
+The information provided by this application does not constitute financial advice, investment recommendations, or an offer to buy or sell securities. Users should conduct their own research and consult qualified financial professionals before making investment decisions.
+
+---
+
+## 📄 License
+
+Distributed under the MIT License.
