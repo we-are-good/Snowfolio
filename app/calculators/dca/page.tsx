@@ -1,7 +1,7 @@
-import React from "react";
+import CdaContents from "@/components/calculators/cda/CdaContents";
 
 const DCAPage = () => {
-  return <div>DCAPage</div>;
+  return <CdaContents />;
 };
 
 export default DCAPage;
