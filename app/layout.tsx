@@ -1,6 +1,8 @@
+import { Sidebar } from "@/components/sidebar";
+import { JotaiProvider } from "@/lib/JotaiProvider";
+import { QueryProviders } from "@/lib/QueryProvider";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { Sidebar } from "@/components/sidebar";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -29,8 +31,12 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full">
-        <Sidebar />
-        <div className="ml-56 min-h-full">{children}</div>
+        <JotaiProvider>
+          <QueryProviders>
+            <Sidebar />
+            <div className="ml-56 min-h-full">{children}</div>
+          </QueryProviders>
+        </JotaiProvider>
       </body>
     </html>
   );
