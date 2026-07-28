@@ -34,7 +34,7 @@ export default function RootLayout({
         <JotaiProvider>
           <QueryProviders>
             <Sidebar />
-            <div className="ml-56 min-h-full">{children}</div>
+            <div className="ml-40 min-h-full">{children}</div>
           </QueryProviders>
         </JotaiProvider>
       </body>

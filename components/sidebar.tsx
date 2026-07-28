@@ -9,7 +9,7 @@ const navItems = [
 
 export function Sidebar() {
   return (
-    <aside className="fixed left-0 top-0 z-40 flex h-full w-56 flex-col border-r border-sidebar-border bg-sidebar-bg text-sidebar-text">
+    <aside className="fixed left-0 top-0 z-40 flex h-full w-40 flex-col border-r border-sidebar-border bg-sidebar-bg text-sidebar-text">
       <nav className="flex flex-col gap-1 p-4" aria-label="메인 메뉴">
         {navItems.map((item) => (
           <Link

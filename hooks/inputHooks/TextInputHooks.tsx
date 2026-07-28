@@ -12,7 +12,11 @@ const TextInputHooks = () => {
     //   } else return;
     // }
 
-    setText(value);
+    if (typeof value === "number") {
+      setText(value);
+    } else {
+      return;
+    }
   };
   return { text, textChangeHandler };
 };

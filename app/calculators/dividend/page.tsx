@@ -1,7 +1,8 @@
 import React from "react";
+import DividendContents from "@/components/calculators/dividend/DividendContents";
 
 const DividendPage = () => {
-  return <div>DividendPage</div>;
+  return <DividendContents />;
 };
 
 export default DividendPage;
